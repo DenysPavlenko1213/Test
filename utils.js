@@ -1,6 +1,5 @@
 function validateForm(name, email, message) {
     const errors = [];
-    
     if (!name || name.trim().length < 2) {
     errors.push('Imię musi mieć co najmniej 2 znaki');
     }
